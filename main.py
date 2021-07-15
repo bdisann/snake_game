@@ -1,4 +1,5 @@
-from turtle import Screen, Turtle
+from turtle import Screen
+import time
 from snake import Snake
 screen = Screen()
 screen.bgcolor("black")
@@ -20,6 +21,7 @@ screen.onkey(snake.left, "Left")
 snake_is_on = True
 while snake_is_on:
     screen.update()
+    time.sleep(0.3)
 
     snake.move()
 
