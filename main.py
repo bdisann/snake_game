@@ -24,7 +24,4 @@ while snake_is_on:
 
 
 
-
-
-
 screen.exitonclick()
